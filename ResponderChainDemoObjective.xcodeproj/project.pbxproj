@@ -12,19 +12,8 @@
 		4C9E32C01F13724E00A29725 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E32BF1F13724E00A29725 /* ViewController.m */; };
 		4C9E32C51F13724E00A29725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C9E32C41F13724E00A29725 /* Assets.xcassets */; };
 		4C9E32C81F13724E00A29725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C9E32C61F13724E00A29725 /* LaunchScreen.storyboard */; };
-		4C9E32D31F13724E00A29725 /* ResponderChainDemoObjectiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E32D21F13724E00A29725 /* ResponderChainDemoObjectiveTests.m */; };
 		4C9E32E01F1374A800A29725 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E32DF1F1374A800A29725 /* MyView.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4C9E32CF1F13724E00A29725 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4C9E32AD1F13724E00A29725 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4C9E32B41F13724E00A29725;
-			remoteInfo = ResponderChainDemoObjective;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4C9E32B51F13724E00A29725 /* ResponderChainDemoObjective.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResponderChainDemoObjective.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,9 +25,6 @@
 		4C9E32C41F13724E00A29725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C9E32C71F13724E00A29725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C9E32C91F13724E00A29725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C9E32CE1F13724E00A29725 /* ResponderChainDemoObjectiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResponderChainDemoObjectiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C9E32D21F13724E00A29725 /* ResponderChainDemoObjectiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponderChainDemoObjectiveTests.m; sourceTree = "<group>"; };
-		4C9E32D41F13724E00A29725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C9E32DD1F13748500A29725 /* MyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyProtocol.h; sourceTree = "<group>"; };
 		4C9E32DE1F1374A800A29725 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
 		4C9E32DF1F1374A800A29725 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
@@ -52,13 +38,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4C9E32CB1F13724E00A29725 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -66,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				4C9E32B71F13724E00A29725 /* ResponderChainDemoObjective */,
-				4C9E32D11F13724E00A29725 /* ResponderChainDemoObjectiveTests */,
 				4C9E32B61F13724E00A29725 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				4C9E32B51F13724E00A29725 /* ResponderChainDemoObjective.app */,
-				4C9E32CE1F13724E00A29725 /* ResponderChainDemoObjectiveTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,15 +83,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4C9E32D11F13724E00A29725 /* ResponderChainDemoObjectiveTests */ = {
-			isa = PBXGroup;
-			children = (
-				4C9E32D21F13724E00A29725 /* ResponderChainDemoObjectiveTests.m */,
-				4C9E32D41F13724E00A29725 /* Info.plist */,
-			);
-			path = ResponderChainDemoObjectiveTests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,24 +103,6 @@
 			productReference = 4C9E32B51F13724E00A29725 /* ResponderChainDemoObjective.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4C9E32CD1F13724E00A29725 /* ResponderChainDemoObjectiveTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4C9E32DA1F13724E00A29725 /* Build configuration list for PBXNativeTarget "ResponderChainDemoObjectiveTests" */;
-			buildPhases = (
-				4C9E32CA1F13724E00A29725 /* Sources */,
-				4C9E32CB1F13724E00A29725 /* Frameworks */,
-				4C9E32CC1F13724E00A29725 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4C9E32D01F13724E00A29725 /* PBXTargetDependency */,
-			);
-			name = ResponderChainDemoObjectiveTests;
-			productName = ResponderChainDemoObjectiveTests;
-			productReference = 4C9E32CE1F13724E00A29725 /* ResponderChainDemoObjectiveTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,11 +115,6 @@
 					4C9E32B41F13724E00A29725 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
-					};
-					4C9E32CD1F13724E00A29725 = {
-						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 4C9E32B41F13724E00A29725;
 					};
 				};
 			};
@@ -187,7 +132,6 @@
 			projectRoot = "";
 			targets = (
 				4C9E32B41F13724E00A29725 /* ResponderChainDemoObjective */,
-				4C9E32CD1F13724E00A29725 /* ResponderChainDemoObjectiveTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,13 +143,6 @@
 			files = (
 				4C9E32C81F13724E00A29725 /* LaunchScreen.storyboard in Resources */,
 				4C9E32C51F13724E00A29725 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4C9E32CC1F13724E00A29725 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,23 +160,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4C9E32CA1F13724E00A29725 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4C9E32D31F13724E00A29725 /* ResponderChainDemoObjectiveTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4C9E32D01F13724E00A29725 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4C9E32B41F13724E00A29725 /* ResponderChainDemoObjective */;
-			targetProxy = 4C9E32CF1F13724E00A29725 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4C9E32C61F13724E00A29725 /* LaunchScreen.storyboard */ = {
@@ -367,30 +288,6 @@
 			};
 			name = Release;
 		};
-		4C9E32DB1F13724E00A29725 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ResponderChainDemoObjectiveTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.trumpf-brandschutz.ResponderChainDemoObjectiveTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResponderChainDemoObjective.app/ResponderChainDemoObjective";
-			};
-			name = Debug;
-		};
-		4C9E32DC1F13724E00A29725 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ResponderChainDemoObjectiveTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.trumpf-brandschutz.ResponderChainDemoObjectiveTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResponderChainDemoObjective.app/ResponderChainDemoObjective";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -408,14 +305,6 @@
 			buildConfigurations = (
 				4C9E32D81F13724E00A29725 /* Debug */,
 				4C9E32D91F13724E00A29725 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		4C9E32DA1F13724E00A29725 /* Build configuration list for PBXNativeTarget "ResponderChainDemoObjectiveTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4C9E32DB1F13724E00A29725 /* Debug */,
-				4C9E32DC1F13724E00A29725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
